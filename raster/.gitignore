@@ -1,0 +1,10 @@
+raster-dbg
+*.pro
+*.pro.user
+*.png
+compiler
+disasm
+compile_shaders.sh
+storage.dat
+raster
+

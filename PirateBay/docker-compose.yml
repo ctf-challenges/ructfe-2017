@@ -1,0 +1,11 @@
+version: '2.3'
+services:
+  piratebay:
+    build: .
+    ports:
+      - "8081:8080"
+    volumes:
+      - .:/home/PirateBay
+    restart: on-failure
+    mem_limit: 512m
+    mem_reservation: 128m
